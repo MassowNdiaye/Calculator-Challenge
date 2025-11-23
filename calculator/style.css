@@ -1,6 +1,9 @@
+* {
+    box-sizing: border-box; 
+}
 
 /* ========= PAGE COLOR ======== */
-* {
+body {
     background-color:aquamarine;
 }
 
@@ -48,7 +51,7 @@ ul#history-list {
 
 /* Styling display box */
 .display input {
-    width: 295px;
+    width: 312px;
     height: 35px;
     border: none;
     background-color: #FFF;
@@ -114,7 +117,7 @@ h1 {
 
 /* description */
 .calc-description {
-    padding-left: 50px;
+    padding-left: 30px;
     font-size: 20px;
 }
 
