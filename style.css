@@ -1,0 +1,151 @@
+
+/* ========= PAGE COLOR ======== */
+* {
+    background-color:aquamarine;
+}
+
+/* ========= CALCULATOR ========*/
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.history {
+    width: 312px;
+    height: 200px;
+    border: 2px solid #ccc;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    overflow-y: auto;
+    background: #fafafa;
+
+}
+
+/* Styling history list  */
+#history-list li {
+    list-style: none;
+    height: 35px;
+    font-size: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-left: 15px;
+    align-content: center;
+    background-color: #fafafa;
+    
+}
+
+ul#history-list {
+    padding-left: 0px;
+    
+}
+
+/* Styling display box */
+.display input {
+    width: 295px;
+    height: 35px;
+    border: none;
+    background-color: #FFF;
+    border: 2px solid #ccc;
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+
+
+/* ========== STYLING BUTTONS ========= */
+
+/* General buttons */
+.calc-buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    padding: 10px;
+    background-color: #EFECE3;
+    border: 2px solid #ccc;
+    border-top: none;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+button {
+    cursor: pointer;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #fafafa;
+}
+
+.options {
+    grid-column: span 2;
+    height: 30px;
+    margin-top: 5px;
+}
+
+/* Operators (+, -, *, /) */
+.operators {
+    background-color: #8FABD4 ;
+}
+
+/* MC, MR, M-, M+ Buttons */
+.memory-func {
+    background-color: #4A70A9;
+    color: #FFF;
+}
+
+/* Clear and Back (<---) Button */
+.options i {
+    color: black;
+    background-color: #fafafa;
+}
+
+
+
+/* ====== CALCULATOR TITLE AND DESCRIPTION ==== */
+/* title */
+h1 {
+    text-align: center;
+}
+
+/* description */
+.calc-description {
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

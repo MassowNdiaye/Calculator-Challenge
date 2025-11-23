@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css">
+
+    <title>Calculator</title>
+</head>
+<body>
+    <!-- title -->
+    <h1>CALCULATOR</h1>
+    
+    <!-- CALCULATOR -->
+    <section>
+        <div class="container">
+            <!-- history list -->
+            <div class="history">
+                <ul id="history-list"></ul>
+            </div>
+
+            <div class="calculator">
+                <!-- calculator display -->
+                <div class="display">
+                    <input type="text" id="display" placeholder="Write your operation...">
+                    <div id="result"></div> 
+                </div>
+
+                <!-- calculator buttons -->
+                <div class="calc-buttons">
+                    <button data-value="C" class="options" >CLEAR</button>
+                    <button data-value="BACK" class="options">
+                        <!-- Arrow symbol inside the button -->
+                        <i class="fa-solid fa-arrow-left-long"></i>
+                    </button>
+                    <button data-value="MC" class="memory-func" data-value="">MC</button>
+                    <button class="memory-func" data-value="">MR</button>
+                    <button class="memory-func" data-value="">M-</button>
+                    <button class="memory-func" data-value="M+">M+</button>
+                    <button data-value="7">7</button>
+                    <button data-value="8">8</button>
+                    <button data-value="9">9</button>
+                    <button class="operators" data-value="/">/</button>
+                    <button data-value="4">4</button>
+                    <button data-value="5">5</button>
+                    <button data-value="6">6</button>
+                    <button class="operators" data-value="*">*</button>
+                    <button data-value="1">1</button>
+                    <button data-value="2">2</button>
+                    <button data-value="3">3</button>
+                    <button class="operators" data-value="-">-</button>
+                    <button data-value="0">0</button>
+                    <button data-value=".">.</button>
+                    <button class="operators" data-value="+">+</button>
+                    <button data-value="=">=</button>
+                </div>
+            
+            </div>
+        </div>
+    </section>
+
+    <!-- Calculator description -->
+     <div class="calc-description">
+        <h2>Calculator Operations</h2>
+        <p>This basic online calculator is similar to a small handheld calculator and has the standard four functions for addition, subtraction, division, and multiplication. This basic online calculator is similar to a small handheld calculator and has the standard four functions for addition, subtraction, division, and multiplication.
+
+            <ul>
+                <li><strong>MC</strong> = Clear calculator memory removing the result from the calculator's history list.</li>
+                <li><strong>MR</strong> = Currently unavailable. </li>
+                <li><strong>M-</strong> = Currently unavailable. </li>
+                <li><strong>M+</strong> = Currently unavailable. </li>
+                <li><strong>CLEAR</strong> = Clear all and start a new operation.</li>
+                
+
+            </ul>
+        </p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
