@@ -3,7 +3,7 @@
 A simple and interactive online calculator built using HTML, CSS, and JavaScript. This calculator mimics a small handheld calculator and supports basic arithmetic operations. Users can also view a history of their previous calculations.
 - -> Try it online: https://main.dkadwp70dcdax.amplifyapp.com/
 
-![Calculator Image](./Screenshot.png)
+![Calculator Image](./screenshot.png)
 
 
 ---
